@@ -12,5 +12,13 @@ public class TestTodo {
         todolist.displayTasks();
         todolist.markTaskComplete(1);
         todolist.displayTasks();
+
+        TodoListenVerwaltung2 myList = new TodoListenVerwaltung2();
+        Task task = new Task(1, "Haho");
+        Task task2 = new Task(2, "Haho2");
+        myList.addTask(task);
+        myList.addTask(task2);
+        myList.print();
+
     }
 }
